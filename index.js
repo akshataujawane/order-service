@@ -1,7 +1,7 @@
 const express = require('express');
 const mysql = require('mysql2');
 const app = express();
-const PORT = 5001;
+const PORT = 5001; 
 
 const db = mysql.createConnection({
   host: process.env.DB_HOST || 'localhost',
